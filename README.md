@@ -20,3 +20,8 @@
 2. `java -cp cljs.jar:src clojure.main node.clj`
 3. `node main.js`
 4. For watch mode, `rlwrap java -cp cljs.jar:src clojure.main node_repl.clj`
+
+## Build for React
+
+1. `curl -O https://clojars.org/repo/cljsjs/react/0.13.3-1/react-0.13.3-1.jar`
+2. `java -cp cljs.jar:lib/*:src clojure.main build.clj`

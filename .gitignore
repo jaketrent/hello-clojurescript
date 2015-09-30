@@ -1,4 +1,5 @@
 out
 cljs.jar
 .repl*
+lib
 node_modules
